@@ -9,7 +9,8 @@ import Typography from '@mui/material/Typography';
 import { Grid } from '@mui/material';
 import Box from '@mui/material/Box';
 import Comments from '../Comments/Comments.js';
-import { Suspense } from 'react';
+import { Suspense
+ } from 'react';
 
 const LazyComments = React.lazy(() => import('../Comments/Comments.js'));
 const Post = () => {
