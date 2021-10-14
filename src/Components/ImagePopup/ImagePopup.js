@@ -5,7 +5,7 @@ const ImagePopup = ({imageUrl,thumbnailUrl}) => {
     const [isOpen, setisOpen] = useState(false)
    const handleShowDialog = () => {
         setisOpen(!isOpen);
-        console.log("cliked");
+       // console.log("cliked");
       };
     return (
         <div>
